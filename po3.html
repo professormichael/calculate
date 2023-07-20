@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+
+  </head>
+  <body class="body">
+  <h2 class="color"> Basic Calculator</h2>
+    <div class="calculator">
+      <div class="output">
+        <input type="text" id="result" disabled>
+      </div>
+      <div class="buttons">
+
+        <button onclick="clearResult()" id="C">C</button>
+        <button onclick="deleteLast()"id="CE">CE</button>
+        <button onclick="insert('+')"id="+">+</button>
+        <button onclick="insert('2')">&square;</button>
+        <button onclick ="insert('%')">&percnt;</button>
+        <button onclick="insert('exp')">&exponentiale;</button>
+        <button onclick="insert('-')"id="-">-</button>
+        <button onclick="insert('PI')" > &pi;</button>
+        <button onclick="insert('sqrt(')">&radic;</button>
+        <button onclick="insert('log(')">log</button>
+        <button onclick="insert('*')"id="*">*</button>
+        <button onclick="insert('/')"id="/">/</button>
+        <button onclick="insert('sin(')" id="sin">sin</button>
+        <button onclick="insert('cos(')">cos</button>
+        <button onclick="insert('tan(')">tan</button>
+        <button onclick="calculate()"id="=">=</button>
+        <button onclick="insert('7')"id="7">7</button>
+        <button onclick="insert('8')"id="8">8</button>
+        <button onclick="insert('9')"id="9">9</button>
+        <button onclick="insert('4')" id="4">4</button>
+        <button onclick="insert('5')"id="5">5</button>
+        <button onclick="insert('6')"id="6"> 6</button>
+        <button onclick="insert('1')"id="a">1</button>
+        <button onclick="insert('2')" id="2">2</button>
+        <button onclick="insert('3')" id="3">3</button>
+        <button onclick="insert('0')" id="0">0</button>
+        <button onclick="insert('.')"id=".">.</button>
+
+        <div id="output"></div>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
